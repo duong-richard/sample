@@ -1,0 +1,12 @@
+{
+    "en": {
+        "translation": {
+            "$systemEmailAddress": "systemEmailAddress"
+        }
+    },
+    "ko": {
+        "translation": {
+            "$systemEmailAddress": "systemEmailAddress [ko]"
+        }
+    }
+}

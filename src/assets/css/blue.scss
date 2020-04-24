@@ -1,0 +1,111 @@
+.blue + footer {
+    display: none;
+}
+.blue {
+    &#content {
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: url(./bg_login.jpg) no-repeat center center;
+        background-color: #72bdf4;
+    }
+    .signInWrap {
+        position: absolute;
+        top: 50%;
+        margin-top: -176px;
+        width: 100%;
+        padding: 0;
+        background: rgba(0,0,0,0.4);
+    }
+    .Box {
+        margin: 0 auto;
+        width: 890px;
+        background: none;
+        box-shadow: none;
+        
+        .left {
+            display: table-cell;
+            width: 420px;
+            height: 312px;
+            padding-right: 130px;
+            vertical-align: middle;
+            color: #fff;
+            .logo {
+                width: 146px;
+                height: 28px;
+                padding-bottom: 34px;
+                
+                filter: invert(100%);
+            }
+            .subtit:after {
+                font-size: 14px;
+                content: "";
+            }
+        }
+        .inner {
+            display: table-cell;
+            width: 337px;
+            height: 312px;
+            vertical-align: middle;
+            padding: 0;
+            
+            .ttl {
+                height: 20px;
+                color: white;
+                border-bottom: none;
+                margin-bottom: 18px;
+                text-transform: uppercase;
+            }
+            .credential {
+                float: left;
+                width: 241px;
+                .inputWrap {
+                    min-height: 34px;
+                    margin-bottom: 0;
+
+                    &.error > p {
+                        display: none;
+                    }
+                }
+            }
+            .btnWrap {
+                float: right;
+                width: 90px;
+                height: 80px;
+                margin-top: 0;
+                .full {
+                    height: 100%;
+                    line-height: 80px;
+                    border-radius: 3px;
+                    background: -webkit-linear-gradient(top, #338bee 0, #0371ea 100%);
+                }
+            }
+            .signChk {
+                clear: both;
+                padding-top: 15px;
+                color: white;
+                .checkbox {
+                    color: white;
+                    label {
+                        color: white;
+                        padding-left: 28px;
+                        &:after {
+                            filter: grayscale(100%);
+                        }
+                    }
+                }
+                .forgot a {
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+            .sign {
+                display: none;
+            }
+            .copy {
+                display: none;
+            }
+        }
+    }
+}
